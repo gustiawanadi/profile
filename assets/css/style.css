@@ -1,0 +1,31 @@
+
+.adi-btn-line-bottom {
+    display: inline-block;
+    text-decoration: none;
+}
+.adi-btn-line-bottom::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #495057;
+    transition: width .3s;
+    margin: 0 auto;
+}
+
+.adi-btn-line-bottom:hover::after {
+    width: 70%;
+    margin: 0 auto;
+    background: #495057;
+}
+
+@media screen and (max-width: 480px) {
+    .adi-btn-line-bottom::after {
+        margin: 0;
+    }
+    
+    .adi-btn-line-bottom:hover::after {
+        width: 100%;
+        margin: 0;
+    }
+  }
