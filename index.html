@@ -41,17 +41,13 @@
   </style>
   <script>
     $(document).ready(function () {
-      // $(".spinner-border").fadeOut("slow");
       $(".preloader").fadeOut("slow");
     });
   </script>
   <title>My Profile</title>
 </head>
 
-<body>
-  <!-- <div class="spinner-border" role="status">
-    <span class="visually-hidden">Loading...</span>
-  </div> -->
+<body data-bs-spy="scroll">
   <div class="preloader">
     <div class="loading">
       <div class="spinner-border" role="status">
@@ -59,61 +55,7 @@
       </div>
     </div>
   </div>
-  <!-- //header-->
-  <!-- <nav class="navbar navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Offcanvas navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-        aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </nav> -->
-  <!-- <nav class="navbar fixed-top navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed top</a>
-    </div>
-  </nav>
-  <nav class="navbar sticky-top navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Sticky top</a>
-    </div>
-  </nav> -->
-
+  <!-- header-->
   <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-light bg-white">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -123,11 +65,14 @@
       <a class="navbar-brand text-secondary" href="#">ADI</a>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-          <li class="adi-btn-line-bottom"><a href="#about-me" class="nav-link">About Me</a></li>
-          <li class="adi-btn-line-bottom"><a href="#organisasi" class="nav-link">Organization</a></li>
-          <li class="adi-btn-line-bottom"><a href="#resume" class="nav-link">Resume</a></li>
-          <li class="adi-btn-line-bottom"><a href="#soft-skills" class="nav-link">Soft Skills</a></li>
-          <li class="adi-btn-line-bottom"><a href="#pelatihan" class="nav-link">Pelatihan</a></li>
+          <li class="adi-btn-line-bottom"><a href="#about-me" class="nav-link list-group-item-action">About Me</a></li>
+          <li class="adi-btn-line-bottom"><a href="#organisasi" class="nav-link list-group-item-action">Organization</a>
+          </li>
+          <li class="adi-btn-line-bottom"><a href="#resume" class="nav-link list-group-item-action">Resume</a></li>
+          <li class="adi-btn-line-bottom"><a href="#soft-skills" class="nav-link list-group-item-action">Soft Skills</a>
+          </li>
+          <li class="adi-btn-line-bottom"><a href="#pelatihan" class="nav-link list-group-item-action">Pelatihan</a>
+          </li>
         </ul>
       </div>
     </div>
