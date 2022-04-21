@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
+
   <!-- tambahan -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -64,15 +65,17 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand text-secondary" href="#">ADI</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+        <!-- <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarTogglerDemo03"> -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
           <li class="adi-btn-line-bottom"><a href="#about-me" class="nav-link list-group-item-action">About Me</a></li>
           <li class="adi-btn-line-bottom"><a href="#organisasi" class="nav-link list-group-item-action">Organization</a>
           </li>
-          <!-- <li class="adi-btn-line-bottom"><a href="#resume" class="nav-link list-group-item-action">Resume</a></li> -->
           <li class="adi-btn-line-bottom"><a href="#soft-skills" class="nav-link list-group-item-action">Soft Skills</a>
           </li>
           <li class="adi-btn-line-bottom"><a href="#pelatihan" class="nav-link list-group-item-action">Pelatihan</a>
+          </li>
+          <li class="adi-btn-line-bottom"><a href="#contacts" class="nav-link list-group-item-action">Contacts</a>
           </li>
         </ul>
       </div>
@@ -88,7 +91,7 @@
           <p class="lead fw-normal">
             Junior Web Programmer & Fresh Graduate
           </p>
-          <a class="btn btn-outline-secondary" href="#about-me">Contact Me</a>
+          <a class="btn btn-outline-secondary" href="#contacts">Contact Me</a>
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -96,7 +99,7 @@
     </section>
 
     <!-- about me -->
-    <section id="about-me" class="pt-5 text-secondary">
+    <section id="about-me" class="pt-5 pb-4 text-secondary">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-8 mb-30 mx-auto text-center">
@@ -131,7 +134,7 @@
               </p>
             </div>
             <div class="vstack gap-1 col-lg-4">
-              <a class="btn btn-outline-secondary" href="#">Download Resume</a>
+              <a class="btn btn-outline-secondary" target="blank" href="./assets/img/CV.pdf">Download Resume</a>
             </div>
           </div>
         </div>
@@ -140,7 +143,7 @@
     <!-- end about me -->
 
     <!-- riwayat organisasi -->
-    <section id="organisasi" class="timeline_area section_padding_130 pt-5 text-secondary">
+    <section id="organisasi" class="timeline_area section_padding_130 pt-5 text-secondary bg-light">
       <div class="container">
         <div class="row">
           <div class="col-8 mb-4 mx-auto text-center">
@@ -265,7 +268,7 @@
     <!-- end riwayat organisasi -->
 
     <!-- soft skill -->
-    <section id="soft-skills" class="pt-5">
+    <section id="soft-skills" class="pt-5 pb-4">
       <div class=" container">
         <div class="row">
           <div class="col-8 mb-4 mx-auto text-center">
@@ -349,7 +352,7 @@
     <!-- end skill -->
 
     <!-- pelatihan -->
-    <section id="pelatihan" class="pt-5">
+    <section id="pelatihan" class="pt-5 pb-4 bg-light">
       <div class="container">
         <div class="row">
           <div class="col-8 mb-4 mx-auto text-center">
@@ -367,7 +370,6 @@
               </div>
             </div>
           </div>
-
           <div class="col-md-4 col-lg-3 col-sm-6 col-12">
             <div class="card mb-3">
               <a href="./assets/img/php.jpg" class="fancylight popup-btn" data-fancybox-group="light">
@@ -446,6 +448,60 @@
       </div>
     </section>
     <!-- end pelatihan -->
+
+    <!-- contact -->
+    <section id="contacts" class="pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 mb-4 mx-auto text-center">
+            <h2 class="text-secondary text-sm-center adi-ff-lobster pt-2">Keep in touch</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-6 col-12 mb-3">
+            <div class="card text-center align-middle border-0">
+              <div class="card-body py-0 py-md-3 py-lg-5">
+                <div class="mb-1 mb-lg-3 mt-4">
+                  <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+                </div>
+                <h4 class="card-text">Whatsapp</h4>
+                <p><a href="https://api.whatsapp.com/send/?phone=6285783159046&text&app_absent=0"
+                    class="nav-link text-muted">0857-8315-9046</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-6 col-12 mb-3">
+            <div class="card text-center align-middle border-0">
+              <div class="card-body py-0 py-md-3 py-lg-5">
+                <div class="mb-1 mb-lg-3  mt-4">
+                  <ion-icon name="mail-outline" size="large"></ion-icon>
+                </div>
+                <h4 class="card-text">Gmail</h4>
+                <p><a href="mailto:adihidayatullah96.ah@gmail.com"
+                    class="nav-link text-muted">adihidayatullah96.ah@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-6 col-12 mb-3">
+            <div class="card text-center align-middle border-0">
+              <div class="card-body py-0 py-md-3 py-lg-5">
+                <div class="mb-1 mb-lg-3  mt-4">
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </div>
+                <h4 class="card-text">Linked In</h4>
+                <p><a href="https://www.linkedin.com/in/hidayatullah-gustiawan-adi/"
+                    class="nav-link text-muted">Hidayatullah Gustiawan Adi</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+        </div>
+      </div>
+    </section>
+    <!-- end contact -->
   </main>
 
   <!-- Optional JavaScript; choose one of the two! -->
@@ -460,13 +516,17 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-  </script>
-
+  </script> -->
 
   <!-- tambahan sendiri -->
   <script src="./assets/js/script.js"></script>
+
+  <!-- icon -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
