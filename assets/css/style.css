@@ -5,7 +5,7 @@
     
     background-image: url(../img/banner-me.JPG);
     width: 100%;
-    /* height: 670px; */
+    height: 670px;
     background-position: center;
     background-size: cover;
     color: white;
@@ -49,17 +49,6 @@ nav .navbar-brand {
     margin: 0 auto;
     background: #495057;
 }
-
-@media screen and (max-width: 480px) {
-    .adi-btn-line-bottom::after {
-        margin: 0;
-    }
-    
-    .adi-btn-line-bottom:hover::after {
-        width: 100%;
-        margin: 0;
-    }
-  }
 
 .card {
     border: 1px solid rgba(255, 255, 255, 1);
@@ -180,6 +169,10 @@ nav .navbar-brand {
     /* color: #3f43fd; */
     font-weight: bold;
 }
+/* end timeline area */
+@media screen and (max-width: 480px) {
+   
+  }
 
 @media only screen and (max-width: 1000px) {
     .single-timeline-area {
@@ -204,7 +197,14 @@ nav .navbar-brand {
     .single-timeline-area .single-timeline-content {
         padding: 20px;
     }
+    .adi-btn-line-bottom::after {
+        margin: 0;
+    }
+    
+    .adi-btn-line-bottom:hover::after {
+        width: 100%;
+        margin: 0;
+    }
 }
-/* end timeline area */
 
 
