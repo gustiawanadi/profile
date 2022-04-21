@@ -197,3 +197,14 @@ nav .navbar-brand {
 }
 /* end timeline area */
 
+
+
+.portfolio-item{
+	/*width:100%;*/
+}
+.portfolio-item .item{
+	/*width:303px;*/
+	/* float:left;
+	margin-bottom:10px; */
+}
+
